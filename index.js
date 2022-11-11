@@ -150,11 +150,11 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
 
 ⭐✑ الوصف : ${metadata.desc}
 
-⭐✑ اتمنى ان تستمتع معنا 😍✨!!`} )
+⭐✑ إنشاء الله تفاعلك اسطوري!!`} )
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} غادر ${metadata.subject}
 
-⭐✑ تطلع يجي غيرك 😌✨` })
+⭐✑ غادر كلب المجموعه ` })
                 }
             }
         } catch (err) {
